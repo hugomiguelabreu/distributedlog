@@ -98,6 +98,11 @@
       <version>${bookkeeper.version}</version>
     </dependency>
     <dependency>
+      <groupId>org.apache.bookkeeper.stats</groupId>
+      <artifactId>prometheus-metrics-provider</artifactId>
+      <version>${bookkeeper.version}</version>
+    </dependency>
+    <dependency>
       <groupId>com.codahale.metrics</groupId>
       <artifactId>metrics-servlets</artifactId>
       <version>${codahale.metrics.version}</version>
